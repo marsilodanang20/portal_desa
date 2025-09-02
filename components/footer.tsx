@@ -95,7 +95,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Desa Ciawiasih. Seluruh hak cipta dilindungi undang-undang.
+            © 2025 PROFIL DESA CIAWIASIH-Media Digitalisasi & Informasi Desa Ciawiasih, Kecamatan Susukan Lebak, Kabupaten Cirebon, Jawa Barat.
           </p>
         </div>
       </div>
