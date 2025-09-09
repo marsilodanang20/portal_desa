@@ -3,73 +3,75 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Phone, Mail, MapPin } from "lucide-react"
+import { MapPin } from "lucide-react"
 
 // Sample government officials data
 const officials = [
   {
-    name: "H. Ahmad Suryadi, S.Sos",
-    position: "Kepala Desa",
-    phone: "0812-3456-7890",
-    email: "kades@desaciawiasih.id",
-    photo: "/indonesian-village-head-official-portrait.png",
+    name: "Nining Niawati, S.St",
+    position: "Kuwu",
+    photo: "/strk1.jpg",
     description: "Memimpin pemerintahan desa dan bertanggung jawab atas kebijakan strategis desa.",
   },
   {
-    name: "Dra. Siti Nurhasanah",
+    name: "Supani",
     position: "Sekretaris Desa",
-    phone: "0812-3456-7891",
-    email: "sekdes@desaciawiasih.id",
-    photo: "/indonesian-village-secretary-official-portrait.png",
+    photo: "/strk2.jpg",
     description: "Mengelola administrasi desa dan mendukung tugas kepala desa.",
   },
   {
-    name: "Budi Santoso, S.E",
+    name: "Zulka Syahruyumi",
     position: "Kepala Urusan Keuangan",
-    phone: "0812-3456-7892",
-    email: "kaur.keuangan@desaciawiasih.id",
-    photo: "/indonesian-village-finance-official-portrait.png",
+    photo: "/strk3.jpg",
     description: "Mengelola keuangan desa dan penyusunan anggaran.",
   },
   {
-    name: "Rina Marlina, S.Pd",
-    position: "Kepala Urusan Umum",
-    phone: "0812-3456-7893",
-    email: "kaur.umum@desaciawiasih.id",
-    photo: "/indonesian-village-general-affairs-official-portra.png",
+    name: "Wawan Erwan",
+    position: "Kepala Urusan Perencanaan",
+    photo: "/strk4.jpg",
     description: "Mengurus administrasi umum dan pelayanan masyarakat.",
   },
   {
-    name: "Dedi Kurniawan",
-    position: "Kepala Dusun I",
-    phone: "0812-3456-7894",
-    email: "kadus1@desaciawiasih.id",
-    photo: "/indonesian-village-hamlet-head-official-portrait.png",
-    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun I.",
+    name: "Suhadi",
+    position: "Kepala Seksi Pemerintahan",
+    photo: "/strk5.jpg",
+    description: "Mengurus pemerintahan di Desa Ciawiasih.",
   },
   {
-    name: "Asep Saepudin",
-    position: "Kepala Dusun II",
-    phone: "0812-3456-7895",
-    email: "kadus2@desaciawiasih.id",
-    photo: "/indonesian-village-hamlet-head-official-portrait.png",
-    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun II.",
+    name: "Sanusi",
+    position: "Kepala Seksi Kesejahteraan",
+    photo: "/strk6.jpg",
+    description: "Mengelola dan melaksanakan program-program kesejahteraan masyarakat, termasuk bidang sosial, kesehatan, pendidikan, dan pemberdayaan keluarga di desa.",
   },
   {
-    name: "Ibu Yayah Rokayah",
-    position: "Kepala Dusun III",
-    phone: "0812-3456-7896",
-    email: "kadus3@desaciawiasih.id",
-    photo: "/indonesian-village-hamlet-head-official-portrait.png",
-    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun III.",
+    name: "Cecep Hidayat",
+    position: "Kepala Pelaksana Kewilayahan/Kepala Dusun 01",
+    photo: "/strk7.jpg",
+    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun 01.",
   },
   {
-    name: "Ujang Suhendar",
-    position: "Kepala Dusun IV",
-    phone: "0812-3456-7897",
-    email: "kadus4@desaciawiasih.id",
-    photo: "/indonesian-village-hamlet-head-official-portrait.png",
-    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun IV.",
+    name: "Andri Setiawan",
+    position: "Kepala Pelaksana Kewilayahan/Kepala Dusun 02",
+    photo: "/strk8.jpg",
+    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun 02.",
+  },
+  {
+    name: "Suhun",
+    position: "Kepala Pelaksana Kewilayahan/Kepala Dusun 03",
+    photo: "/strk9.jpg",
+    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun 03.",
+  },
+   {
+    name: "Ahmad Kaelani",
+    position: "Kepala Pelaksana Kewilayahan/Kepala Dusun 04",
+    photo: "/strk10.jpg",
+    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun 04.",
+  },
+  {
+    name: "Gilang Sulaeman H",
+    position: "Kepala Pelaksana Kewilayahan/Kepala Dusun 05",
+    photo: "/strk11.jpg",
+    description: "Memimpin dan mengkoordinasikan kegiatan di Dusun 05.",
   },
 ]
 
@@ -159,21 +161,10 @@ export default function StrukturPage() {
                       <CardDescription className="font-medium text-secondary">{official.position}</CardDescription>
                     </CardHeader>
 
-                    <CardContent className="space-y-3">
+                    <CardContent>
                       <p className="text-sm text-muted-foreground text-center leading-relaxed">
                         {official.description}
                       </p>
-
-                      <div className="space-y-2 pt-2 border-t">
-                        <div className="flex items-center space-x-2 text-xs">
-                          <Phone className="h-3 w-3 text-secondary flex-shrink-0" />
-                          <span className="truncate">{official.phone}</span>
-                        </div>
-                        <div className="flex items-center space-x-2 text-xs">
-                          <Mail className="h-3 w-3 text-secondary flex-shrink-0" />
-                          <span className="truncate">{official.email}</span>
-                        </div>
-                      </div>
                     </CardContent>
                   </Card>
                 ))}
@@ -204,37 +195,36 @@ export default function StrukturPage() {
                         <div className="text-center">
                           <p className="font-medium">Alamat</p>
                           <p className="text-sm text-muted-foreground">
-                            Jl. Raya Ciawiasih No. 123
+                            Desa Ciawiasih
                             <br />
-                            Kec. Ciawiasih, Kab. Kuningan
+                            Kec. Susukan Lebak, Kabupaten Cirebon 
                           </p>
                         </div>
                       </div>
 
+                      {/* Telepon dan Email tetap di bagian kantor */}
                       <div className="flex flex-col items-center space-y-2">
                         <div className="p-3 rounded-full bg-secondary/10">
-                          <Phone className="h-6 w-6 text-secondary" />
+                          <span className="h-6 w-6 text-secondary">📞</span>
                         </div>
                         <div className="text-center">
                           <p className="font-medium">Telepon</p>
                           <p className="text-sm text-muted-foreground">
-                            (0232) 123-4567
-                            <br />
-                            WhatsApp: 0812-3456-7890
+                            WhatsApp: 0853-1614-4921
                           </p>
                         </div>
                       </div>
 
                       <div className="flex flex-col items-center space-y-2">
                         <div className="p-3 rounded-full bg-secondary/10">
-                          <Mail className="h-6 w-6 text-secondary" />
+                          <span className="h-6 w-6 text-secondary">✉️</span>
                         </div>
                         <div className="text-center">
                           <p className="font-medium">Email</p>
                           <p className="text-sm text-muted-foreground">
-                            info@desaciawiasih.id
+                            pemdesciawiasih08@gmail.com
                             <br />
-                            pelayanan@desaciawiasih.id
+                            pemdesciawiasih18@gmail.com
                           </p>
                         </div>
                       </div>
@@ -242,7 +232,7 @@ export default function StrukturPage() {
 
                     <div className="pt-4 border-t">
                       <p className="text-sm text-muted-foreground">
-                        <strong>Jam Pelayanan:</strong> Senin - Jumat: 08.00 - 16.00 WIB | Sabtu: 08.00 - 12.00 WIB
+                        <strong>Jam Pelayanan:</strong> Senin - Jumat: 08.00 - 15.00 WIB | Sabtu: 08.00 - 12.00 WIB
                       </p>
                     </div>
                   </div>

@@ -25,10 +25,10 @@ const galleryItems = [
   },
   {
     id: 3,
-    title: "Pembangunan Jalan Desa",
-    date: "2024-01-08",
+    title: "Pengaspalan Jalan Desa terutama di Blok Citaman",
+    date: "2025-21-08",
     category: "Pembangunan",
-    image: "/indonesian-village-road-construction-development.png",
+    image: "/news1.png",
     description: "Progress pembangunan infrastruktur jalan desa",
   },
   {

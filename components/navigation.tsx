@@ -51,7 +51,7 @@ export function Navigation() {
           <div className="hidden md:flex items-center">
             <Button asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
               <Link
-                href="https://umkmciawiasihcom.vercel.app"
+                href="https://profilumkmciawiasih.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +65,7 @@ export function Navigation() {
             {/* UMKM Button (Mobile) */}
             <Button asChild size="sm" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
               <Link
-                href="https://umkmciawiasihcom.vercel.app"
+                href="https://profilumkmciawiasih.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -117,7 +117,7 @@ export function Navigation() {
                   <div className="mt-auto pt-6 border-t">
                     <Button asChild className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground">
                       <Link
-                        href="https://umkmciawiasihcom.vercel.app"
+                        href="https://profilumkmciawiasih.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

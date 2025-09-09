@@ -210,11 +210,11 @@ export default function InformasiPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="text-center">
                         <p className="font-medium mb-2">WhatsApp Desa</p>
-                        <p className="text-sm text-muted-foreground">0812-3456-7890</p>
+                        <p className="text-sm text-muted-foreground">0853-1614-4921</p>
                       </div>
                       <div className="text-center">
                         <p className="font-medium mb-2">Email</p>
-                        <p className="text-sm text-muted-foreground">info@desaciawiasih.id</p>
+                        <p className="text-sm text-muted-foreground">pemdesciawiasih08@gmail.com</p>
                       </div>
                     </div>
 

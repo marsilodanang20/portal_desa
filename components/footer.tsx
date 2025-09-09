@@ -21,13 +21,12 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-secondary" />
                 <div>
-                  <p className="text-sm">(0232) 123-4567</p>
-                  <p className="text-sm">WhatsApp: 0812-3456-7890</p>
+                  <p className="text-sm">WhatsApp: 0853-1614-4921</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-secondary" />
-                <p className="text-sm">info@desaciawiasih.id</p>
+                <p className="text-sm">pemdesciawiasih08@gmail.com</p>
               </div>
             </div>
           </div>
@@ -59,7 +58,7 @@ export function Footer() {
             <h3 className="font-heading font-semibold text-lg">Media Sosial</h3>
             <div className="flex space-x-4">
               <Link
-                href="https://facebook.com/desaciawiasih"
+                href="https://facebook.com/desa\ciawiasih"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-secondary/10 hover:bg-secondary/20 transition-colors"
@@ -95,7 +94,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Desa Ciawiasih. Seluruh hak cipta dilindungi undang-undang.
+            © 2025 Desa Ciawiasih. Seluruh hak cipta dilindungi undang-undang.
           </p>
         </div>
       </div>

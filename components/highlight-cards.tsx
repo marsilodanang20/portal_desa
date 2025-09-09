@@ -11,7 +11,7 @@ const highlights = [
     description: "Pelajari sejarah, visi-misi, dan demografi Desa Ciawiasih",
     descriptionSunda: "Diajar sajarah, visi-misi, jeung demografi Désa Ciawiasih",
     href: "/profil",
-    image: "/news4.jpg",
+    image: "/pd1.jpg",
   },
   {
     icon: Building2,

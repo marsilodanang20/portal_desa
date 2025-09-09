@@ -21,10 +21,10 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Desa Ciawiasih - Website Resmi",
+  title: "Desa Ciawiasih - Website Resmi Profil Desa",
   description:
     "Website resmi Desa Ciawiasih - Informasi profil desa, struktur pemerintahan, berita, dan layanan publik",
-  generator: "v0.app",
+  generator: "Muhammad Farhan Saino",
 }
 
 export default function RootLayout({

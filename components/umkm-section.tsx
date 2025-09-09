@@ -45,7 +45,7 @@ export function UMKMSection() {
                       className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold"
                     >
                       <Link
-                        href="https://umkmciawiasihcom.vercel.app/"
+                        href="https://profilumkmciawiasih.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2"

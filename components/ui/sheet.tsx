@@ -44,13 +44,16 @@ function SheetOverlay({
   )
 }
 
+// ...existing code...
 function SheetContent({
   className,
   children,
   side = "right",
+  title = "Sheet", // tambahkan prop opsional title
   ...props
 }: React.ComponentProps<typeof SheetPrimitive.Content> & {
   side?: "top" | "right" | "bottom" | "left"
+  title?: React.ReactNode
 }) {
   return (
     <SheetPortal>
@@ -71,6 +74,10 @@ function SheetContent({
         )}
         {...props}
       >
+        {/* SheetTitle visually hidden for accessibility if not provided in children */}
+        <SheetTitle style={{ position: "absolute", left: "-9999px", height: "1px", width: "1px", overflow: "hidden" }}>
+          {title}
+        </SheetTitle>
         {children}
         <SheetPrimitive.Close className="ring-offset-background focus:ring-ring data-[state=open]:bg-secondary absolute top-4 right-4 rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none">
           <XIcon className="size-4" />
@@ -80,6 +87,7 @@ function SheetContent({
     </SheetPortal>
   )
 }
+// ...existing code...
 
 function SheetHeader({ className, ...props }: React.ComponentProps<"div">) {
   return (

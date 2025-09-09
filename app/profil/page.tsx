@@ -158,7 +158,7 @@ export default function ProfilPage() {
                     <div className="mx-auto p-3 rounded-full bg-secondary/10 w-fit mb-2">
                       <Users className="h-6 w-6 text-secondary" />
                     </div>
-                    <CardTitle className="font-heading text-2xl">2,847</CardTitle>
+                    <CardTitle className="font-heading text-2xl">2,298</CardTitle>
                     <CardDescription>Total Penduduk</CardDescription>
                   </CardHeader>
                 </Card>
@@ -168,7 +168,7 @@ export default function ProfilPage() {
                     <div className="mx-auto p-3 rounded-full bg-secondary/10 w-fit mb-2">
                       <Home className="h-6 w-6 text-secondary" />
                     </div>
-                    <CardTitle className="font-heading text-2xl">756</CardTitle>
+                    <CardTitle className="font-heading text-2xl">1772</CardTitle>
                     <CardDescription>Kepala Keluarga</CardDescription>
                   </CardHeader>
                 </Card>
@@ -318,11 +318,11 @@ export default function ProfilPage() {
                         <div className="space-y-2 text-sm">
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Utara:</span>
-                            <span>Desa Sindangjaya</span>
+                            <span>Desa Belawa</span>
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Selatan:</span>
-                            <span>Desa Cibeureum</span>
+                            <span>Desa Sedong Kaler</span>
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Timur:</span>
@@ -330,7 +330,7 @@ export default function ProfilPage() {
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Barat:</span>
-                            <span>Desa Cigugur</span>
+                            <span>Desa Ciawijapura</span>
                           </div>
                         </div>
                       </div>
