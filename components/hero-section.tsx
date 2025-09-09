@@ -15,12 +15,12 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-background/40"></div>
       </div>
 
-      {/* Content */}
+{/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
           <h1 className="font-heading font-bold text-4xl md:text-6xl lg:text-7xl text-balance">
             Selamat Datang di
-            <span className="text-white block mt-2">Desa Ciawiasih</span>
+            <span className="text-secondary block mt-2">Desa Ciawiasih</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
