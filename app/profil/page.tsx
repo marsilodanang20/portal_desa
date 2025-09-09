@@ -55,7 +55,7 @@ export default function ProfilPage() {
 
                 <div className="relative">
                   <img
-                    src="/news1.jpg"
+                    src="/pd1.jpg"
                     alt="Sejarah Desa Ciawiasih"
                     className="w-full h-auto rounded-2xl shadow-lg"
                   />
